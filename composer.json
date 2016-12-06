@@ -1,0 +1,22 @@
+{
+    "name": "hinet/flysystem-qiniu",
+    "description": "qiniu cloud storage for laravel 5",
+    "keywords": ["qiniu", "storage", "sdk", "cloud"],
+    "homepage": "http://github.com/hinet",
+    "require": {
+        "php": ">=5.4",
+        "qiniu/php-sdk": "v7.1.*"
+    },
+    "authors": [
+        {
+            "name": "hinet",
+            "email": "63603636@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Hinet\\Qiniu\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
